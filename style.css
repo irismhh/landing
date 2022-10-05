@@ -2,14 +2,14 @@
 
 body {
   font-family: overpass;,serif;
-  color: #404042;
+  color: darkslategrey;
   font-size: 18px;
   line-height: 2;
 }
 
 
 #banner{
-  height: 450px;
+  height: 350px;
   background-image: url("images/pariss.jpeg");
   background-size: cover;
   text-align: center;
@@ -25,9 +25,9 @@ h1{
 
 .btn-black{
   font-family: monospace;
-  width : 300px;
+  width : 400px;
   height: 40px;
-  background-color: skyblue;
+  background-color: dimgrey;
   padding: 7px 0px 0px 0px;
   border-radius: 5px;
   text-align: center;
@@ -43,7 +43,7 @@ h3, h4{
 }
 
 a {
-  color: #1A48E3;
+  color: darkslategrey;
   font-weight: bold;
   text-decoration: none;
   transition: .3s;
@@ -74,8 +74,13 @@ margin: 8px;
   grid-gap: 16px;
 }
 
+.card-details{
+  height: 410px;
+}
+
 .footer {
   background: dimgrey;
-  color: white;
+  color: lightgrey;
+  font-weight: bolder;
   padding: 10px 0px;
 }
